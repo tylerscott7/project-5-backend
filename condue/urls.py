@@ -3,4 +3,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', include('reservation.urls')),
+    path('', include('review.urls')),
 ]
